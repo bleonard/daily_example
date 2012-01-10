@@ -17,7 +17,7 @@ end
 gem 'daily', '0.0.2', :path => "../daily"
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 gem 'capistrano'
