@@ -3,5 +3,10 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
+.DS_Store
 config/daily.yml
+process/*.tmp
+files/*/*
 config/deploy.rb
+Capfile
+.rvmrc

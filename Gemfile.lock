@@ -5,6 +5,7 @@ PATH
       dbd-mysql
       dbi
       declarative_authorization
+      delayed_job
       devise
       inherited_resources
       json
@@ -62,12 +63,16 @@ GEM
     coffee-script-source (1.1.2)
     color (1.4.1)
     columnize (0.3.4)
+    daemons (1.1.4)
     dbd-mysql (0.4.4)
       dbi (>= 0.4.0)
       mysql
     dbi (0.4.5)
       deprecated (= 2.0.1)
     declarative_authorization (0.5.3)
+    delayed_job (2.1.4)
+      activesupport (~> 3.0)
+      daemons
     deprecated (2.0.1)
     devise (1.4.9)
       bcrypt-ruby (~> 3.0)
