@@ -1,0 +1,19 @@
+# daily.example.yml
+# a copy of this with your information should be made and placed in daily.yml
+# daily.yml is not checked in to source control and symlinked on the server
+
+development:
+  database:
+    adapter: mysql
+    host: localhost
+    database: mydatabase
+    username: root
+    password: mypass
+    
+production:
+  database:
+    adapter: mysql
+    host: localhost
+    database: db_readonly
+    username: produser
+    password: prodpass
