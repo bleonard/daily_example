@@ -1,7 +1,8 @@
 PATH
   remote: ../daily
   specs:
-    daily (0.0.2)
+    daily (0.0.4)
+      daemons
       dbd-mysql
       dbi
       declarative_authorization
@@ -65,6 +66,7 @@ GEM
     coffee-script-source (1.2.0)
     color (1.4.1)
     columnize (0.3.6)
+    daemons (1.1.5)
     dbd-mysql (0.4.4)
       dbi (>= 0.4.0)
       mysql
@@ -203,7 +205,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   coffee-rails (~> 3.1.1)
-  daily (= 0.0.2)!
+  daily (= 0.0.4)!
   json
   rails (= 3.1.1)
   ruby-debug

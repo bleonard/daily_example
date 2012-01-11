@@ -14,7 +14,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'daily', '0.0.3'  #, :path => "../daily"
+gem 'daily', '0.0.4'  #, :path => "../daily"
 
 # Use unicorn as the web server
 gem 'unicorn'
