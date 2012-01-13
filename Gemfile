@@ -15,7 +15,7 @@ group :assets do
   gem 'therubyracer'
 end
 
-gem 'daily', '0.0.7'  #, :path => "../daily"
+gem 'daily', '0.0.8'  #, :path => "../daily"
 
 # To use debugger
 # gem 'ruby-debug'

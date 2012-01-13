@@ -41,7 +41,7 @@ GEM
     coffee-script-source (1.2.0)
     color (1.4.1)
     daemons (1.1.5)
-    daily (0.0.7)
+    daily (0.0.8)
       daemons
       dbd-mysql
       dbi
@@ -174,7 +174,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.1.1)
-  daily (= 0.0.7)
+  daily (= 0.0.8)
   json
   rails (= 3.1.1)
   sass-rails (~> 3.1.4)
