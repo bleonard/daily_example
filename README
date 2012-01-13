@@ -4,4 +4,4 @@ rake db:migrate
 
 rake user:admin[brian@example.com,password]
 
-bin/delayed_job start
+script/delayed_job start
