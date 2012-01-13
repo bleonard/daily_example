@@ -6,4 +6,5 @@ rake db:migrate
 
 rake user:admin[brian@example.com,password]
 
+rails s
 script/delayed_job start
