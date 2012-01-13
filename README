@@ -2,4 +2,4 @@ rake db:create
 rake daily_engine:install:migrations
 rake db:migrate
 
-rake users:admin[brian@example.com,password]
+rake user:admin[brian@example.com,password]

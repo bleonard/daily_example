@@ -14,7 +14,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'daily', '0.0.5'  #, :path => "../daily"
+gem 'daily', '0.0.6'  #, :path => "../daily"
 
 # To use debugger
 # gem 'ruby-debug'
