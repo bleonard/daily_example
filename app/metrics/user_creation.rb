@@ -4,7 +4,7 @@ class UserCreation < Metric
   end
   
   def column_names
-    ["Date", "Signups"]
+    ["Date", "Users"]
   end
   
   def add_rows(table)
