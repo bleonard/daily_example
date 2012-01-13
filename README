@@ -3,3 +3,5 @@ rake daily_engine:install:migrations
 rake db:migrate
 
 rake user:admin[brian@example.com,password]
+
+bin/delayed_job start
