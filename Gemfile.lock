@@ -41,7 +41,7 @@ GEM
     coffee-script-source (1.2.0)
     color (1.4.1)
     daemons (1.1.5)
-    daily (0.0.9)
+    daily (0.0.10)
       daemons
       dbd-mysql
       dbi
@@ -49,6 +49,7 @@ GEM
       delayed_job
       delayed_job_active_record
       devise
+      googlecharts
       inherited_resources
       jquery-rails
       json
@@ -76,6 +77,7 @@ GEM
     execjs (1.2.13)
       multi_json (~> 1.0)
     fastercsv (1.5.4)
+    googlecharts (1.6.8)
     has_scope (0.5.1)
     hike (1.2.1)
     hoe (2.12.5)
@@ -174,7 +176,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.1.1)
-  daily (= 0.0.9)
+  daily (= 0.0.10)
   json
   rails (= 3.1.1)
   sass-rails (~> 3.1.4)
